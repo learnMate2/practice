@@ -5,7 +5,7 @@ const messageSchema = new mongoose.Schema({
     firstName:{
         type:String,
         required:true,
-        minlength:[3,"first name must contain 3 characters"]
+        minlength:[4,"first name must contain 3 characters"]
     },
     lastName:{
         type:String,
